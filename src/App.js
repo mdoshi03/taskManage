@@ -56,9 +56,10 @@ const App = () => {
             </>
           )}
         />
+        </div>
         <Route path="/about" component={About} />
         <Footer />
-      </div>
+      
     </Router>
   );
 };
